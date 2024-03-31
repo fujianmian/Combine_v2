@@ -193,6 +193,7 @@ namespace Assignment_Manager_v1
                             if (count > 0)
                             {
                                 // 如果已经存在相同的 CompetitionID，则跳过本次插入
+                                MessageBox.Show("This competition id had already exists before.");
                                 continue;
                             }
                         }
