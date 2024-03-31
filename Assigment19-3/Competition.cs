@@ -118,7 +118,7 @@ namespace Assignment_Manager_v1
         {
             if (e.RowIndex >= 0)
             {
-                // 获取选定行的每个单元格的值并放入文本框中
+                // get information from the datagridview that been selected
                 DataGridViewRow selectedRow = LstCompetition.Rows[e.RowIndex];
                 lblCompetitionID.Text = selectedRow.Cells["CompetitionId"].Value.ToString();
                 lblCompetitionName.Text = selectedRow.Cells["CompetitionName"].Value.ToString();
