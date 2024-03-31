@@ -98,5 +98,10 @@ namespace Assignment_Manager_v1
         {
 
         }
+
+        private void BtnLogOut_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
